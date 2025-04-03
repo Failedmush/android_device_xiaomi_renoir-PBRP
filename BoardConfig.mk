@@ -112,13 +112,16 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_EXCLUDE_TWRPAPP := true
 TW_EXTRA_LANGUAGES := true
 TW_PREPARE_DATA_MEDIA_EARLY := true
 TW_USE_TOOLBOX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_NO_SCREEN_TIMEOUT := true
 TW_DEFAULT_BRIGHTNESS := 600
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
+TW_USE_SERIALNUM_PATH := "/sys/class/android_usb/android0/iSerial"
 TW_Y_OFFSET := 91
 TW_H_OFFSET := -91
 TW_FRAMERATE := 90
