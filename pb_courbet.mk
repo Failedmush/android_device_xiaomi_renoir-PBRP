@@ -14,15 +14,15 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Inherit from courbet device
 $(call inherit-product, device/xiaomi/courbet/device.mk)
 
-PRODUCT_DEVICE := courbet
+# Device Products
 PRODUCT_NAME := pb_courbet
-PRODUCT_BRAND := Xiaomi
+PRODUCT_DEVICE := courbet
 PRODUCT_MODEL := Xiaomi 11 Lite
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device Fingerprint
-BUILD_FINGERPRINT := Xiaomi/courbet_global/courbet:13/TKQ1.221013.002/V14.0.4.0.TKQMIXM:user/release-keys
-
+BuildFingerprint := Xiaomi/courbet_global/courbet:13/TKQ1.221013.002/V14.0.4.0.TKQMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_DESC="courbet_global-user 13 TKQ1.221013.002 V14.0.4.0.TKQMIXM release-keys"
+    BuildDesc="courbet_global-user 13 TKQ1.221013.002 V14.0.4.0.TKQMIXM release-keys"
