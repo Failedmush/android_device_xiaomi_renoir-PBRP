@@ -11,18 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit some common PBRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
-# Inherit from courbet device
+# Inherit from renoir device
 $(call inherit-product, device/xiaomi/courbet/device.mk)
 
 # Device Products
-PRODUCT_NAME := pb_courbet
-PRODUCT_DEVICE := courbet
-PRODUCT_MODEL := Xiaomi 11 Lite
+PRODUCT_NAME := pb_renoir
+PRODUCT_DEVICE := renoir
+PRODUCT_MODEL := Xiaomi 11 Lite 5G
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device Fingerprint
-BuildFingerprint := Xiaomi/courbet_global/courbet:13/TKQ1.221013.002/V14.0.4.0.TKQMIXM:user/release-keys
+BuildFingerprint := Xiaomi/renoir_global/renoir:13/TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="courbet_global-user 13 TKQ1.221013.002 V14.0.4.0.TKQMIXM release-keys"
+    BuildDesc="renoir_global-user 13 TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-key"
