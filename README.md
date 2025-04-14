@@ -7,7 +7,7 @@ The Xiaomi 11 Lite 5G (**renoir**) is a mid-range smartphone from Xiaomi brand.
 
 Component   | Description
 -------:|:-------------------------
-Chipset | Qualcomm SM7150 Snapdragon 780G
+Chipset | Qualcomm Snapdragon 780G (sm7350) (5nm)
 CPU     | 8 Cores: 2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver
 GPU     | Adreno 618
 Memory  | 6/8 GB RAM
