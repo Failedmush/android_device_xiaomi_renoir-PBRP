@@ -9,7 +9,7 @@ Component   | Description
 -------:|:-------------------------
 Chipset | Qualcomm Snapdragon 780G (sm7350) (5nm)
 CPU     | 8 Cores: 2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver
-GPU     | Adreno 618
+GPU     | Adreno 642
 Memory  | 6/8 GB RAM
 Shipped Android Version | Android 11 (MIUI 12)
 Storage | 128/256 GB (UFS 2.2)
