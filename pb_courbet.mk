@@ -25,4 +25,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Device Fingerprint
 BuildFingerprint := Xiaomi/renoir_global/renoir:13/TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="renoir_global-user 13 TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release
+    BuildDesc="renoir_global-user 13 TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-keys"
