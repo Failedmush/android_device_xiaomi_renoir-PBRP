@@ -1,13 +1,13 @@
-Device configuration for the Xiaomi 11 Lite 4G
+Device configuration for the Xiaomi 11 Lite 5G
 ==============================================================
 
-The Xiaomi 11 Lite 4G (**courbet**) is a mid-range smartphone from Xiaomi brand.
+The Xiaomi 11 Lite 5G (**renoir**) is a mid-range smartphone from Xiaomi brand.
 
 ## Device specifications
 
 Component   | Description
 -------:|:-------------------------
-Chipset | Qualcomm SM7150 Snapdragon 732G
+Chipset | Qualcomm SM7150 Snapdragon 780G
 CPU     | 8 Cores: 2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver
 GPU     | Adreno 618
 Memory  | 6/8 GB RAM
