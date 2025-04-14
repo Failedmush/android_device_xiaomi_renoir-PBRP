@@ -11,8 +11,8 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Device Tree Path
-PRODUCT_RELEASE_NAME := courbet
-DEVICE_PATH := device/xiaomi/courbet
+PRODUCT_RELEASE_NAME := renoir
+DEVICE_PATH := device/xiaomi/renoir
 
 # Architecture
 TARGET_ARCH := arm64
