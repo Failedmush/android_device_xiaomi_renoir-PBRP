@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 # Device Products
 PRODUCT_NAME := pb_renoir
 PRODUCT_DEVICE := renoir
-PRODUCT_MODEL := Xiaomi 11 Lite 5G
+PRODUCT_MODEL := Mi 11 Lite 5G
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
